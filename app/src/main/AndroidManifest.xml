@@ -7,14 +7,14 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/roll"
+        android:label="@string/roller"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Test">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/roll"
+            android:label="@string/roller"
             android:theme="@style/Theme.Test"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
